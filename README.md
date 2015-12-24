@@ -5,24 +5,27 @@ Solving N-Queens Problem Using Genetic Algorithm in Clojure
 ## Usage
  
  ------- RUN METHOD --------
+ ```shell
  > lein run 8 200 0.3 0.03
 
  > lein run 
  Wrong Input arguments!
  USAGE : 'Number of Queens' 'Number of Chromosomes' 'Crossover-Rate[0.0-1.0]' 'Mutation Rate[0.02-0.1]'
- 
+ ```
  
  ------- DEBUG METHOD 1-------
- - lein repl
- - (load "core")
- - (-main "8" "200" "0.3" "0.03")
- 
+ ```shell
+ > lein repl
+ > (load "core")
+ > (-main "8" "200" "0.3" "0.03")
+ ```
  ------- DEBUG METHOD 2-------
- - open "core.clj" in emacs
- - run cider (C-c M-j)
- - evaluate buffer (C-c C-k)
- - (-main "8" "200" "0.3" "0.03")
- - you may need to evaluate it multiple time to get the answer.
+ 1. open "core.clj" in emacs
+ 2. run cider (C-c M-j)
+ 3. evaluate buffer (C-c C-k)
+ 4. (-main "8" "200" "0.3" "0.03")
+ 
+ *NOTE*  you may need to evaluate it multiple time to get the answer.
  
  --------- SAMPLE RESULTS ------------------
  
