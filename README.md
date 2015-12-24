@@ -4,6 +4,9 @@ Solving N-Queens Problem Using Genetic Algorithm in Clojure
 
 ## Usage
  
+ 
+ **NOTE**  you may need to evaluate it multiple times to get the answer.
+ 
  ------- RUN METHOD --------
  ```shell
  > lein run 8 200 0.3 0.03
@@ -25,9 +28,7 @@ Solving N-Queens Problem Using Genetic Algorithm in Clojure
  3. evaluate buffer (C-c C-k)
  4. (-main "8" "200" "0.3" "0.03")
  
- *NOTE*  you may need to evaluate it multiple time to get the answer.
- 
- --------- SAMPLE RESULTS ------------------
+  --------- SAMPLE RESULTS ------------------
  
 TIMEOUT! fitness value= 55/2 population= 5000 
 	=>"Elapsed time: 24605.194236 msecs"
